@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package unique-identifier="uid">
+  
+  <metadata>
+    <dc-metadata xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+      <dc:Title>{TITLE}</dc:Title>
+      <dc:Language>en-us</dc:Language>
+      <dc:Identifier id="uid">E5E320B84D</dc:Identifier>
+    </dc-metadata>
+    
+    <x-metadata>
+      <output encoding="utf-8"></output>
+      
+      {COVER}
+    </x-metadata>
+  </metadata>
+  
+  <manifest>
+    <item href="cover.jpg"   id="cover-image"  mediatype="image/jpeg" />
+    <item href="toc.html" id="toc"        media-type="text/x-oeb1-document" />
+    <item href="{FILENAME}.html" id="main"        media-type="text/x-oeb1-document" />
+  </manifest>
+  
+  <spine>
+    <itemref idref="toc"/>
+    <itemref idref="main"/>
+  </spine>
+  
+  <tours></tours>
+  <guide> 
+     <reference type="toc" title="Table of Contents" href="toc.html"/>
+     <reference type="start" title="Start here" href="{FILENAME}.html"/>     
+  </guide>
+</package>

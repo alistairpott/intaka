@@ -1,0 +1,111 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+  <head> 
+    <title>YOU, THE CONTROLLER</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="copyright" content="© The Economist Newspaper Limited 2008. All rights reserved." /> 
+<meta name="DC.Title" content="More Intelligent Life" /> 
+<meta name="keywords" content="arts,lifestyle,intelligent life,the economist,ideas,style,culture" /> 
+<meta name="robots" content="index,follow" /> 
+    <script type="text/javascript" src="/misc/jquery.js"></script> 
+<script type="text/javascript" src="/misc/drupal.js"></script> 
+<script type="text/javascript" src="/sites/all/modules/ad_flash/scripts/AC_RunActiveContent.js"></script> 
+<script type="text/javascript" src="/sites/all/modules/date/date_timezone/date_timezone.js"></script> 
+<script type="text/javascript" src="/sites/all/modules/jquery_update/compat.js"></script> 
+<script type="text/javascript" src="/sites/all/modules/nice_menus/nice_menus.js"></script> 
+<script type="text/javascript">Drupal.extend({ settings: { "quicktabs": { "effect": "none" } } });</script> 
+    <meta name='robots' content='noindex, nofollow' /> 
+    <base href='http://moreintelligentlife.com/content/lifestyle/tom-standage/you-controller' /> 
+    <link rel='shortcut icon' href='/themes/moreintelligentlife/favicon.ico' type='image/x-icon' /> 
+    <style type="text/css" media="all">@import "/files/css/2d8bfb8d0bf7e4bd88695080228f2a0b.css";</style> 
+  </head> 
+  <body> 
+        <div class="print-logo"><img class='print-logo' src='/themes/moreintelligentlife/logo.png' alt='' /> 
+</div> 
+    <div class="print-site_name">Published on <em>More Intelligent Life</em> (<a href="http://moreintelligentlife.com">http://moreintelligentlife.com</a>)</div> 
+    <p /> 
+    <div class="print-breadcrumb"></div> 
+    <hr class="print-hr" /> 
+    <h1 class="print-title">YOU, THE CONTROLLER</h1> 
+    <div class="print-submitted">By <em>Tom Standage</em></div> 
+    <div class="print-created">Created <em>08/11/2010 - 10:48</em></div> 
+    <p /> 
+    <div class="print-content"><img src="http://moreintelligentlife.com/files/microsoft-kinect.JPG" alt="microsoft-kinect.JPG" title="microsoft-kinect.JPG" width="470" height="309" class="imagefield imagefield-field_main_illustration2" /><p><!--paging_filter--> 
+<p><strong>Is the Microsoft Kinect even more family-friendly than the Wii? Tom Standage investigates ...</strong></p> 
+<p>From INTELLIGENT LIFE Magazine, Autumn 2010</p> 
+<p>Controllers&mdash;who needs them? That&rsquo;s the idea behind Microsoft&rsquo;s Kinect system. Previously known by its much cooler codename Project Natal, Kinect is essentially a camera that plugs into the Xbox 360 and lets players control games using just the movement of their bodies. As the old name hints, Microsoft hopes the Xbox will be reborn as a family-friendly, easy-to-use console&mdash;more like the market-leading Nintendo Wii, in other words.</p> 
+<p>The Wii&rsquo;s leap forward was replacing complicated buttons and joysticks with a motion-sensitive controller that you just wave around. Kinect does away with controllers altogether and replaces them with you. This is not a new idea. The EyeToy, which does something very similar on Sony&rsquo;s PlayStation 2, has been around for years without setting the gaming world on fire. Kinect is supposed to be much cleverer, capable of things like voice and facial recognition, as well as body tracking. But will it translate into exciting new games?</p> 
+<p>The games lined up for the launch are a mixed bag. There&rsquo;s &ldquo;Kinect Sports&rdquo;, an obvious nod to &ldquo;Wii Sports&rdquo; (the bestselling video game of all time). It too consists of several activities, including bowling, ping-pong and boxing, some of which work well, while others resemble technology demos. Similarly, &ldquo;Kinect Adventures&rdquo;, a set of mini-games, is reminiscent of &ldquo;Wii Play&rdquo;. Microsoft has also demonstrated driving games (move your hands to steer) and a &ldquo;Star Wars&rdquo; game (wave your arms around to kill bad guys with a lightsaber). Wii-like yoga and virtual-pet games are in the works.</p> 
+<p>Although these games look great, they do not seem to have depth. True, the same can be said of a lot of Wii games, many of which do little more than demonstrate new ways to use the controller. But the Wii has enough games which transcend the novelty value and draw you in. Kinect&rsquo;s strongest candidate in this regard is &ldquo;Dance Central&rdquo;, in which players mimic the moves of on-screen dancers in time to songs of different eras, from &ldquo;Push It&rdquo; to &ldquo;Poker Face&rdquo;.</p> 
+<p>Shigeru Miyamoto, the resident creative genius at Nintendo, knew the Wii would be a hit when he saw Nintendo&rsquo;s elderly directors, some of whom had never played a video game before, jostling to try a prototype of its tennis game. As Wii owners know, even granny can be persuaded to wave a virtual tennis racket (and she may well win). But not everyone wants to get down to Lady Gaga. If Kinect is going to take off, it needs a game that can pass the granny test.</p> 
+<p><em><a href="http://http://store.microsoft.com/content.aspx?cntId=8807" target="_blank">Kinect</a> <span class="print-footnote">[1]</span>&nbsp; November, &pound;130/&euro;150/$150, incl &ldquo;Kinect Adventures&rdquo;</em></p> 
+<p>&nbsp;</p> 
+<p>(<a target="_blank" href="http://moreintelligentlife.com/authors/tom-standage">Tom Standage</a> <span class="print-footnote">[2]</span> is editor of <a href="http://www.economist.com" target="_blank">Economist.com</a> <span class="print-footnote">[3]</span>. His last gaming article was on <a href="http://http://moreintelligentlife.com/content/lifestyle/tom-standage/cheating-fine-me" target="_blank">cheating</a> <span class="print-footnote">[4]</span>.)</p> 
+</div> 
+    <div class="print-taxonomy"><ul class="links"><li  class="first taxonomy_term_1333"><a href="/section/lifestyle-1" rel="tag" title="" class="taxonomy_term_1333">Lifestyle</a></li> 
+<li  class="taxonomy_term_1361"><a href="/section/autumn-2010" rel="tag" title="" class="taxonomy_term_1361">AUTUMN 2010</a></li> 
+<li  class="taxonomy_term_1072"><a href="/gaming" rel="tag" title="" class="taxonomy_term_1072">GAMING</a></li> 
+<li  class="last taxonomy_term_1229"><a href="/section/intelligence" rel="tag" title="" class="taxonomy_term_1229">Intelligence</a></li> 
+</ul></div> 
+    <div class="print-footer">Intelligent Life | Copyright © <a href="http://www.economist.com/help/DisplayHelp.cfm?folder=663377">The Economist Newspaper Limited</a> 2010 | All rights reserved | <a href="/node/32">Disclaimer</a> | <a href="/node/33">Terms and conditions</a> | <a href="/about">Intelligent Life magazine FAQs</a><br />
+
+<img src="http://www.moreintelligentlife.com/themes/moreintelligentlife/images/Economist-business_group_logo_footer.gif" /> 
+</div> 
+    <hr class="print-hr" /> 
+    <div class="print-source_url"><strong>Source URL:</strong> <a href="http://moreintelligentlife.com/content/lifestyle/tom-standage/you-controller">http://moreintelligentlife.com/content/lifestyle/tom-standage/you-controller</a></div> 
+    <div class="print-links"><p><strong>Links:</strong><br />[1] http://http://store.microsoft.com/content.aspx?cntId=8807<br /> 
+[2] http://moreintelligentlife.com/authors/tom-standage<br /> 
+[3] http://www.economist.com<br /> 
+[4] http://http://moreintelligentlife.com/content/lifestyle/tom-standage/cheating-fine-me<br /> 
+</p></div> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script> 
+<script type="text/javascript">if (typeof(_gat) == "object") {var pageTracker = _gat._getTracker("UA-6766951-1");pageTracker._trackPageview();}</script> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<span style="display:none;"><script type="text/javascript">var sc_project=2877237;var sc_invisible=0;var sc_partition=29;var sc_security="97af2d94";</script> 
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c30.statcounter.com/2877237/0/97af2d94/0/" alt="free hit counter script" /></a></div></noscript></span>		
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script> 
+<script type="text/javascript">if (typeof(_gat) == "object") {var pageTracker = _gat._getTracker("UA-6766951-1");pageTracker._trackPageview();}</script> 
+ 
+<!-- SiteCatalyst code version: H.21.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com --> 
+<script language="JavaScript" type="text/javascript"
+src="http://moreintelligentlife.com/s_code.js"></script> 
+<script language="JavaScript" type="text/javascript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+s.pageName=""
+s.server=""
+s.channel=""
+s.pageType=""
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script> 
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('<')+'\!-'+'-')
+//--></script><noscript><a href="http://www.omniture.com" title="Web
+Analytics"><img
+src="http://omniture.d1.sc.omtrdc.net/b/ss/cumac_site/1/H.21--NS/0"
+height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/--> 
+<!-- End SiteCatalyst code version: H.21. --> 
+ 
+ 
+  </body> 
+</html> 

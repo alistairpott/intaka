@@ -22,13 +22,20 @@ class BaseArticle:
     def extractData(self):
         return 'Not implemented - you must subclass'
     
-	#generate output HTML
-	def getOutputHTML(self):
-		output = '<h4>' + str(self.title) + '</h4><h2>' + str(self.headline) + '</h2><h5>' + str(self.rubric) + '</h5>'
-		#get each element in the body
-		for element in self.body:
-			output += unicode(element)
-		
-		self.outputHTML = output
-		#there are often unicode characters - so encode them using utf-8
-		return unicode(output).encode('utf-8')
+    #generate output HTML
+    def getOutputHTML(self):
+        output = ''
+        if self.title:
+            output = '<h4>' + str(self.title) + '</h4>'
+        if len(self.headline) > 1:
+            '<h2>' + str(self.headline) + '</h2>'
+        if self.rubric:
+            '<h5>' + str(self.rubric) + '</h5>'
+        
+        #get each element in the body
+        for element in self.body:
+            output += unicode(element)
+        
+        self.outputHTML = output
+        #there are often unicode characters - so encode them using utf-8
+        return unicode(output).encode('utf-8')
