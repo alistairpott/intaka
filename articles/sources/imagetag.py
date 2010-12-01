@@ -1,4 +1,5 @@
 import urllib
+import random
 
 #for handling image tags in the input
 class ImageTag:

@@ -1,5 +1,9 @@
 from base import BaseArticle
 from imagetag import ImageTag
+import urllib
+import urllib2
+from BeautifulSoup import BeautifulSoup
+
 
 class EconomistArticle(BaseArticle):
     
@@ -25,12 +29,13 @@ class EconomistArticle(BaseArticle):
             return 'http://www.economist.com/node/' + self.url[self.url.rfind('=') + 1:] + '/print'
     
     #actually download the article text
-    def download(self):
+    def downloadArticle(self):
         print '\n  ->  Downloading an article...'
         print '   *  ' + str(self.url)
         
         #download the article and create a beautifulsoup object with it
         pageText = urllib2.urlopen(self.getPrintURL()).read()
+        
         if self.article_type in ['node','cfm']:
             self.soup = BeautifulSoup(pageText).find('div', id='ec-article-body')
         else:
@@ -41,9 +46,9 @@ class EconomistArticle(BaseArticle):
     def extractData(self):
         if self.article_type in ['node','cfm']:
             self.title = self.soup.find('h1').string
-            self.headline = self.soup.find('div', attrs={'class':'headline'}).string 
+            self.headline = self.soup.find('div', attrs={'class':'headline'}).string
             self.rubric = self.soup.find('h2', attrs={'class':'rubric'}).string 
-        
+            
         elif self.article_type == 'blog':
             self.title = self.soup.find('h2', attrs={'class':'ec-blog-fly-title'}).string
             self.headline = self.soup.find('p', attrs={'class':'ec-blog-headline'}).string 
@@ -51,7 +56,7 @@ class EconomistArticle(BaseArticle):
 
         #extract the body of the article
         if self.article_type in ['node','cfm']:
-            self.body = self.soup.find('div', attrs={'class':'ec-article-content'})
+            self.body = self.soup.find('div', attrs={'class':'ec-article-content clear'})
         elif self.article_type == 'blog':
             self.body = self.soup.find('div', attrs={'class':'ec-blog-body'})
         
