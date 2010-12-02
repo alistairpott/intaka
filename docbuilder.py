@@ -1,9 +1,12 @@
-
-#a class for building the output files OPF, TOC, MAIN, COVER, etc
 class DocBuilder:
-
+    """A class for construcing documents ready to be converted to ebooks."""
+    
     def __init__(self, title, filename='output'):
-        #basic params on creating the document
+        """Setup the document builder using input parameters
+        
+            title    = The title out the output document
+            filename = Optional filename of the output document. Defaults to output
+        """
         self.title = title
         self.filename = filename
         self.has_toc = False
@@ -12,27 +15,30 @@ class DocBuilder:
         #list to hold all the articles in the document
         self.articles = []
     
-    #utility function to create all of the output files
     def output_all_files(self):
+        """Goes through the steps to create the output files."""
         self.buildTableOfContents()
         self.buildOPF()
         self.buildOutput()
     
-    #set the cover for the document
     def set_cover(self, cover_filename):
+        """Sets the cover of the output document"""        
         self.cover_filename = cover_filename
         self.has_cover = True
     
-    #add an article to the document
-    def add_article(self, html, toc_label, toc_anchor='AUTO'):
+    def add_article(self, html, toc_label):
+        """Adds an article to the DocBuilder.
+            
+            html      = the HTML content of the article
+            toc_label = the label of this article in the Table of Contents
+        """        
         #create an anchor automatically
-        if toc_anchor == 'AUTO':
-            toc_anchor = 'anchor%i' % len(self.articles)
+        toc_anchor = 'anchor%i' % len(self.articles)
         
         self.articles.append({'toc_label':toc_label, 'toc_anchor':toc_anchor, 'html':html})
     
-    #write a table of contents file
     def buildTableOfContents(self, title='Table of Contents'):
+        """Outputs the Table of Contents to a file"""
         fout = open('toc.html','w')
         fout.write('<h1>%s</h1>' % title)
         
@@ -43,8 +49,8 @@ class DocBuilder:
         self.has_toc = True
         fout.close()
     
-    #build the output OPF file
     def buildOPF(self):
+        """Builds the output OPF file."""
         #get the template for the OPF
         fin = open('template.opf','r')
         opf_output = fin.read()
@@ -63,8 +69,8 @@ class DocBuilder:
         fout.write(opf_output)
         fout.close()
     
-    #build the main output file
     def buildOutput(self):
+        """Builds the output HTML file with the document contents."""
         fout = open('%s.html' % self.filename, 'w')
         for item in self.articles:
             fout.write('<a name="%s"></a>' % item['toc_anchor'])

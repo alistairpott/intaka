@@ -1,6 +1,5 @@
 from base import BaseArticle
 from imagetag import ImageTag
-import urllib
 import urllib2
 from BeautifulSoup import BeautifulSoup
 

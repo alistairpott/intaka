@@ -1,6 +1,3 @@
-import urllib
-import urllib2
-
 #the base article class that must be subclassed by the other types
 class BaseArticle:
     
