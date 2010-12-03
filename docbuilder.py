@@ -72,8 +72,11 @@ class DocBuilder:
     def buildOutput(self):
         """Builds the output HTML file with the document contents."""
         fout = open('%s.html' % self.filename, 'w')
+        fout.write('<html><head><title>Economist Download</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body>')
         for item in self.articles:
             fout.write('<a name="%s"></a>' % item['toc_anchor'])
             fout.write(item['html'])
+            fout.write('<mbp:pagebreak/>')
+        fout.write('</body></html>')
         fout.close()
         

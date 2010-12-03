@@ -27,11 +27,11 @@ class BaseArticle:
     def getOutputHTML(self):
         output = ''
         if len(self.title) > 1:
-            output += '<h4>' + str(self.title) + '</h4>'
+            output += '<h4>' + unicode(self.title) + '</h4>'
         if len(self.headline) > 1:
-            output += '<h2>' + str(self.headline) + '</h2>'
+            output += '<h2>' + unicode(self.headline) + '</h2>'
         if len(self.rubric) > 1:
-            output += '<h5>' + str(self.rubric) + '</h5>'
+            output += '<h5>' + unicode(self.rubric) + '</h5>'
         
         #get each element in the body
         for element in self.body:
