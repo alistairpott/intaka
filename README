@@ -1,0 +1,40 @@
+INTRO
+=====
+Intaka (Intaka means bird in Xhosa) is an app that I originall wrote to 
+download articles from The Economist and convert them into Kindle format.
+
+
+REQUIREMENTS
+============
+Intaka is a Python application and requires the BeautifulSoup module to be
+available.
+
+Obviously an internet connection.
+
+I use the freely available kindlegen.exe from Amazon to convert the articles
+into a format usable on the Kindle.
+
+USAGE
+=====
+Just put a list of article URL's into the file articles.txt
+
+e.g. http://www.economist.com/displaystory.cfm?story_id=17633606
+
+Run the file get-articles.py and the program should download each article
+and accompanying pictures and convert into a format suitable to be read on your
+ereading device.
+
+The output is:
+ - output.opf    An OPF file pointing at the various input files
+ - toc.html      Table of Contents that can optionally be used
+ - output.html   HTML file containing all of the articles
+ - img           Directory containing each of the images downloaded and linked.
+
+I recommend using kindlegen.exe to convert the output.opf file:
+> kindlegen.exe -c1 output.opf
+ 
+
+ROADMAP
+=======
+I've tried to build a pluggable architecture so that sources other than The
+Economist can be used.
