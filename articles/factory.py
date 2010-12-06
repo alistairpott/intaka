@@ -2,7 +2,7 @@ import articles.sources
 
 def get_source_from_url(url):
     if url[:30] == 'http://moreintelligentlife.com':
-        return 'InteligentLife'
+        return 'IntelligentLife'
     elif url[:26] == 'http://www.economist.com':
         return 'Economist'
     

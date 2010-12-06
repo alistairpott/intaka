@@ -1,2 +1,5 @@
 *.pyc
 output/img/.*.*
+output/kindlegen.exe
+.ropeproject/
+.spyderproject
