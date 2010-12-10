@@ -40,13 +40,15 @@ class DocBuilder:
     def buildTableOfContents(self, title='Table of Contents'):
         """Outputs the Table of Contents to a file"""
         fout = open('toc.html','w')
+        fout.write('<html><head><title>%s</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body>' % title)
         fout.write('<h1>%s</h1>' % title)
         
         #actually write the output file
         for item in self.articles:
-            fout.write('<p><a href="%s.html#%s">%s</a></p>' % (self.filename, item['toc_anchor'], item['toc_label']))
-        
+            fout.write(u'<p><a href="%s.html#%s">%s</a></p>' % (self.filename, item['toc_anchor'], item['toc_label']))
+            
         self.has_toc = True
+        fout.write('</body></html>')
         fout.close()
     
     def buildOPF(self):
@@ -72,7 +74,7 @@ class DocBuilder:
     def buildOutput(self):
         """Builds the output HTML file with the document contents."""
         fout = open('%s.html' % self.filename, 'w')
-        fout.write('<html><head><title>Economist Download</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body>')
+        fout.write('<html><head><title>%s</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head><body>' % self.title)
         for item in self.articles:
             fout.write('<a name="%s"></a>' % item['toc_anchor'])
             fout.write(item['html'])
