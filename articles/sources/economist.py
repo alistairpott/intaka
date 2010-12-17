@@ -44,9 +44,9 @@ class EconomistArticle(BaseArticle):
     #process the body of the article
     def extractData(self):
         if self.article_type in ['node','cfm']:
-            self.title = unicode(self.soup.find('h1').string.strip())
+            self.title = unicode(self.soup.find('h2', attrs={'class':'fly-title'}).string.strip())
             self.headline = unicode(self.soup.find('div', attrs={'class':'headline'}).string.strip())
-            self.rubric = unicode(self.soup.find('h2', attrs={'class':'rubric'}).string.strip())
+            self.rubric = unicode(self.soup.find('h1', attrs={'class':'rubric'}).string.strip())
             
         elif self.article_type == 'blog':
             self.title = unicode(self.soup.find('h2', attrs={'class':'ec-blog-fly-title'}).string.strip())
